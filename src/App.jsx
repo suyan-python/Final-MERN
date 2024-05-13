@@ -9,13 +9,15 @@ import { Login } from "./pages/auth/Login";
 import { AppRoutes } from "./routes/AppRoutes";
 import { Navbar } from "./components/partials/Navbar";
 // import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
+import { DashBoard } from "./dashboard/DashBoard";
 
 function App() {
   return (
     <>
       <Navbar />
       {/* <WelcomeLayout/> */}
-      <AppRoutes />
+      <DashBoard />
+      {/* <AppRoutes /> */}
     </>
   );
 }
